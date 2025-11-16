@@ -1,0 +1,51 @@
+{
+    "structure": {
+        "dip_column": "dip",
+        "dipdir_column": "azimuth2",
+        "description_column": "feature",
+        "orientation_type": "Dip Direction",
+        "overturned_column": "structypei",
+        "objectid_column": "objectid",
+        "bedding_text": "Bedding",
+        "overturned_text": "Overturned"
+    },
+    "geology": {
+        "unitname_column": "unitname",
+        "alt_unitname_column": "code",
+        "group_column": "group_",
+        "supergroup_column": "supergroup",
+        "description_column": "descriptn",
+        "minage_column": "min_age_ma",
+        "maxage_column": "max_age_ma",
+        "rocktype_column": "rocktype1",
+        "alt_rocktype_column": "rocktype2",
+        "sill_text": "sill",
+        "intrusive_text": "intrusive",
+        "objectid_column": "objectid",
+        "volcanic_text": "volcanic",
+        "ignore_codes": [
+            "cover"
+        ]
+    },
+    "fault": {
+        "structtype_column": "feature",
+        "fault_text": "Fault",
+        "dip_column": "dip",
+        "dipdir_column": "dip_dir",
+        "dipdir_flag": "num",
+        "dipestimate_column": "dip_est",
+        "dipestimate_text": "shallow,steep,vertical",
+        "orientation_type": "Dip Direction",
+        "objectid_column": "objectid",
+        "dip_null_value": "0",
+        "name_column": "name"
+    },
+    "fold": {
+        "structtype_column": "feature",
+        "fold_text": "Fold axial trace",
+        "description_column": "type",
+        "synform_text": "syncline",
+        "foldname_column": "name",
+        "objectid_column": "objectid"
+    }
+}
